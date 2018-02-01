@@ -110,6 +110,7 @@ These programs come under the CAT 2 heading "-GEIR 1R"
 > s1(n) is the sum of the divisors of n. 
 
 ### "RAND"
+	From: ICEBOX.ROM
 	Credits: Geir Isene
 
 **Description**: This program returns a random number between 0 and 1. This Random Number Generator uses TIME as input, rendering the numbers generated “more random” than the usual HP-41 solutions that keeps a seed stored for the next value generated. If there is no Time module, RAND instead takes the value in X and Y as seeds.
@@ -241,8 +242,8 @@ This is the CAT 2 header for the math section.
 
 **Description**: D>F is the key function within this group. Shows in the display the smallest possible fraction that results in the decimal number in X, for the current display precision set. Change the display precision as appropriate to adjust the accuracy of the results.  This means the fraction obtained may be different depending on the settings, returning different results. For example, the following approximations are found for π:
 
-> pi ~ 104348/33215 FIX 9, FIX 8 and FIX 7
-> pi ~ 355/113 FIX 6, FIX 5 and FIX 4
+>		pi ~ 104348/33215 FIX 9, FIX 8 and FIX 7
+>		pi ~ 355/113 FIX 6, FIX 5 and FIX 4
 
 This function uses the same algorithm as the PPC ROM “DF” routine.
 
