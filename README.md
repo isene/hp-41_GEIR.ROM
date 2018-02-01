@@ -119,7 +119,7 @@ Description: An alternative to the HP-41 BEEP.
 ## MCODE functions
 These are machine language (assembly) programs and thus much faster than equivalent RPN FOCAL programs.
 
-## --GEN UTILS
+### --GEN UTILS
 This is the CAT 2 header for the general utilities section.
 
 ### APROMPT
@@ -201,7 +201,7 @@ Description: Programmable version of mainframe function COPY. Program name must 
 
 Description: View (display and print in NORM & TRACE mode) mantissa with all 10 digits.
 
-## --ALPHA
+### --ALPHA
 This is the CAT 2 header for the Alpha utilities section.
 
 ### ANUMDEL
@@ -228,7 +228,7 @@ Description: Deletes everything in Alpha after the first Space character (" "). 
 
 Description: Appends to Alpha the integer value of the number in X.
 
-## --MATH
+### --MATH
 This is the CAT 2 header for the math section.
 
 ### D>F
@@ -276,7 +276,7 @@ Description: Divides the fraction T/Z by the fraction Y/X.
 
 Description: Multiplies the fraction T/Z by the fraction Y/X.
 
-## --MCODE
+### --MCODE
 This is the CAT 2 header for the MCODE utilities section.
 
 ### GROM
