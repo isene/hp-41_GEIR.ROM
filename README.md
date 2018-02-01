@@ -57,14 +57,14 @@ These programs come under the CAT 2 heading "-GEIR 1R"
 
 **Description**: Calculates the number of possible combinations of "n" objects taken "r" at a time. It is determined by the following formula:
 
-	C(n,r)=n!/((n−r)!r!)
+> C(n,r)=n!/((n−r)!r!)
 
 ### "PERM"
 	Credits: Geir Isene
 
 **Description**: Calculates the number of permutations of "n" objects taken "r" at a time (where the order of the items matters). It is determined by the following formula:
 
-	P(n,r)=n!/(n−r)!
+> P(n,r)=n!/(n−r)!
 
 ### "FACTOR"
 	From: http://hp41programs.yolasite.com/primes.php
@@ -72,38 +72,39 @@ These programs come under the CAT 2 heading "-GEIR 1R"
 
 **Description**: This program displays the factorization of any integer n (1 < n < E10) and returns sk(n) = the sum of the k-th powers of the divisors of n is in X-register and in R06, and phi(n) = the Euler function in Y-register and in R04. phi(n) is the number of integers not exceeding and relatively prime to n. 
 
-	Example1:
-	1 ENTER^ 
-	3238704 XEQ "FACTOR" displays successively:
-	          3238704=2^4* 
-	          3238704=2^4*3^5* 
-	          3238704=2^4*3^5*7*2* 
-	          3238704=2^4*3*5*7^2*17^1 (if there are more than 24 characters, the left part of the alpha string will be gradually truncated)
-
-	       s1(3238704) = 11577384 in X-register and in R06 
-	 and   phi(3238704) = 870912 in Y-register and in R04
-
-	Example2:
-	7 ENTER^ 
-	24 R/S produces: 24^1=2^3*3*1
-
-	       s7(24) = 4624699020 in registers X and R06 
-	 and   phi(24) = 8 in registers Y and R04
-
-	Example3:
-	0 ENTER^ 
-	999983 R/S yields  999983=999983^1 (in 42 seconds) thus, 999983 is prime
-
-	       s0(999983) = 2 in registers X and R04 
-	       phi(999983) = 999982 in registers Y and R06 
-
-	Notes:
-
-	If N is a prime, execution time is approximately    N1/2 / 25  seconds. 
-	The greatest prime < E10 is  9999999967 (1h06m with an HP-41CX) 
-	If you set flag F21, the program will stop at each AVIEW. 
-	s0(n) is the number of divisors of n. 
-	s1(n) is the sum of the divisors of n. 
+> Example1:
+> 1 ENTER^ 
+> 3238704 XEQ "FACTOR" displays successively:
+>           3238704=2^4* 
+>           3238704=2^4*3^5* 
+>           3238704=2^4*3^5*7*2* 
+>           3238704=2^4*3*5*7^2*17^1 
+> If there are more than 24 characters, the left part of the alpha string will be gradually truncated
+>
+>        s1(3238704) = 11577384 in X-register and in R06 
+>  and   phi(3238704) = 870912 in Y-register and in R04
+>
+> Example2:
+> 7 ENTER^ 
+> 24 R/S produces: 24^1=2^3*3*1
+>
+>        s7(24) = 4624699020 in registers X and R06 
+>  and   phi(24) = 8 in registers Y and R04
+>
+> Example3:
+> 0 ENTER^ 
+> 999983 R/S yields  999983=999983^1 (in 42 seconds) thus, 999983 is prime
+>
+>        s0(999983) = 2 in registers X and R04 
+>        phi(999983) = 999982 in registers Y and R06 
+>
+> Notes:
+>
+> If N is a prime, execution time is approximately    N1/2 / 25  seconds. 
+> The greatest prime < E10 is  9999999967 (1h06m with an HP-41CX) 
+> If you set flag F21, the program will stop at each AVIEW. 
+> s0(n) is the number of divisors of n. 
+> s1(n) is the sum of the divisors of n. 
 
 ### "RAND"
 	Credits: Geir Isene
@@ -237,8 +238,8 @@ This is the CAT 2 header for the math section.
 
 **Description**: D>F is the key function within this group. Shows in the display the smallest possible fraction that results in the decimal number in X, for the current display precision set. Change the display precision as appropriate to adjust the accuracy of the results.  This means the fraction obtained may be different depending on the settings, returning different results. For example, the following approximations are found for π:
 
-	pi ~ 104348/33215 FIX 9, FIX 8 and FIX 7
-	pi ~ 355/113 FIX 6, FIX 5 and FIX 4
+> pi ~ 104348/33215 FIX 9, FIX 8 and FIX 7
+> pi ~ 355/113 FIX 6, FIX 5 and FIX 4
 
 This function uses the same algorithm as the PPC ROM “DF” routine.
 
@@ -250,7 +251,7 @@ To re-calculate the fraction after changing the decimal settings just press the 
 
 For example calculate 2/7 over 4/13, then add 9/17 to the result:
 
-	2, ENTER^, 7, ENTER^, 4, ENTER^, 13, F/ , 9 ENTER^, 17, F+ => 347/238
+> 2, ENTER^, 7, ENTER^, 4, ENTER^, 13, F/ , 9 ENTER^, 17, F+ => 347/238
 
 ### F-
 	From: SANDMATH module
