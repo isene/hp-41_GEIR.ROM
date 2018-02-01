@@ -73,30 +73,30 @@ These programs come under the CAT 2 heading "-GEIR 1R"
 **Description**: This program displays the factorization of any integer n (1 < n < E10) and returns sk(n) = the sum of the k-th powers of the divisors of n is in X-register and in R06, and phi(n) = the Euler function in Y-register and in R04. phi(n) is the number of integers not exceeding and relatively prime to n. 
 
 > Example1:
-> 1 ENTER^ 
-> 3238704 XEQ "FACTOR" displays successively:
->           3238704=2^4* 
->           3238704=2^4*3^5* 
->           3238704=2^4*3^5*7*2* 
->           3238704=2^4*3*5*7^2*17^1 
+>	1 ENTER^ 
+>	3238704 XEQ "FACTOR" displays successively:
+>       3238704=2^4* 
+>       3238704=2^4*3^5* 
+>       3238704=2^4*3^5*7*2* 
+>       3238704=2^4*3*5*7^2*17^1 
 > If there are more than 24 characters, the left part of the alpha string will be gradually truncated
 >
->        s1(3238704) = 11577384 in X-register and in R06 
->  and   phi(3238704) = 870912 in Y-register and in R04
+>       s1(3238704) = 11577384 in X-register and in R06 
+>		phi(3238704) = 870912 in Y-register and in R04
 >
 > Example2:
-> 7 ENTER^ 
-> 24 R/S produces: 24^1=2^3*3*1
+>	7 ENTER^ 
+>	24 R/S produces: 24^1=2^3*3*1
 >
->        s7(24) = 4624699020 in registers X and R06 
->  and   phi(24) = 8 in registers Y and R04
+>       s7(24) = 4624699020 in registers X and R06 
+>		phi(24) = 8 in registers Y and R04
 >
 > Example3:
-> 0 ENTER^ 
-> 999983 R/S yields  999983=999983^1 (in 42 seconds) thus, 999983 is prime
+>	0 ENTER^ 
+>	999983 R/S yields  999983=999983^1 (in 42 seconds) thus, 999983 is prime
 >
->        s0(999983) = 2 in registers X and R04 
->        phi(999983) = 999982 in registers Y and R06 
+>		s0(999983) = 2 in registers X and R04 
+>       phi(999983) = 999982 in registers Y and R06 
 >
 > Notes:
 >
