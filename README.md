@@ -87,16 +87,16 @@ These programs come under the CAT 2 heading "-GEIR 1R"
 >
 > Example2:
 > 
->	7 ENTER^ 
->	24 R/S produces: 24^1=2^3*3*1
+>		7 ENTER^ 
+>		24 R/S produces: 24^1=2^3*3*1
 >
 >       s7(24) = 4624699020 in registers X and R06 
 >		phi(24) = 8 in registers Y and R04
 >
 > Example3:
 > 
->	0 ENTER^ 
->	999983 R/S yields  999983=999983^1 (in 42 seconds) thus, 999983 is prime
+>		0 ENTER^ 
+>		999983 R/S yields  999983=999983^1 (in 42 seconds) thus, 999983 is prime
 >
 >		s0(999983) = 2 in registers X and R04 
 >       phi(999983) = 999982 in registers Y and R06 
