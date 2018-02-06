@@ -115,7 +115,8 @@ MCODE:     RTN
 
 ;;; Copied from the Paname rom (with the help of Ángel Martin)
            .NAME "YN?"
-YN:        .con 0x130  ;  LDI S&X=09
+YN:        gosub 0x10B2   ; AVIEW
+           .con 0x130  ;  LDI S&X=09
            .con 0x059  ;  CON:  short high pitch
            .con 0x375  ;  ?NC XQ      =09
            .con 0x058  ;  ->16DD    [TONEB]

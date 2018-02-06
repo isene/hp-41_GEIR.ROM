@@ -186,7 +186,7 @@ Example: Setting flags 2 and 3 will make register 12 the starting register for s
 ### YN?
 	From: Paname module
 
-**Description**: Stops program execution, waits for the user to press either "Y" or "N". Skips next line if "N" is pressed.
+**Description**: Stops program execution, waits for the user to press either "Y" or "N". Skips next line if "N" is pressed. This routine displays the content of Alpha before waiting for an "Y" or "N" pressed by the user (the Paname version does not display the content of Alpha).
 
 ### INVF
 	From: MCODE for Beginners
