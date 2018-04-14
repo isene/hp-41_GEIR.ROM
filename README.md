@@ -326,3 +326,6 @@ This is the CAT 2 header for the MCODE utilities section.
 GEIR.ROM was easily created with Håkan Thörngren's NutStudio.
 
 A massive credit goes to Ángel Martin for is immense insight, inspiration and production of MCODE works.
+
+## License
+This software is released into the Public Domain.
