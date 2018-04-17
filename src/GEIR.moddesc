@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ModFile FileFormat="MOD1" Title="GEIR.ROM" Version="1" PartNumber="" Author="Geir Isene" Copyright="Geir Isene" License="GNU Public License version 2" Comments="Check out www.isene.com for more." Category="2" Hardware="0">
+<ModFile FileFormat="MOD1" Title="GEIR.ROM" Version="1" PartNumber="" Author="Geir Isene" Copyright="Geir Isene" License="Public Domain" Comments="Check out www.isene.com for more." Category="2" Hardware="0">
   <Page Name="GEIR" Identity="GE1R" Page="Any" PageGroup="0" Bank="1" BankGroup="0" RAM="0" WriteProtect="0" FAT="1"/>
 </ModFile>
 

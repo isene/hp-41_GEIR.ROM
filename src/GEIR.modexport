@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <XROM Title="GEIR.ROM">
   <Key Label="--ALPHA   " Kind="MCODE"/>
-  <Entry i="23" j="27"/>
+  <Entry i="23" j="29"/>
   <Key Label="--MATH   " Kind="MCODE"/>
-  <Entry i="23" j="32"/>
+  <Entry i="23" j="34"/>
   <Key Label="--MCODE   " Kind="MCODE"/>
-  <Entry i="23" j="38"/>
+  <Entry i="23" j="40"/>
   <Key Label="--UTILITIES" Kind="MCODE"/>
-  <Entry i="23" j="13"/>
+  <Entry i="23" j="15"/>
   <Key Label="-GEIR 1 " Kind="MCODE"/>
   <Entry i="23" j="0"/>
   <Key Label="A&lt;&gt;R" Kind="MCODE"/>
-  <Entry i="23" j="21"/>
+  <Entry i="23" j="23"/>
   <Key Label="ADELR" Kind="MCODE"/>
-  <Entry i="23" j="28"/>
-  <Key Label="ANUMDEL" Kind="MCODE"/>
-  <Entry i="23" j="29"/>
-  <Key Label="APROMPT" Kind="MCODE"/>
-  <Entry i="23" j="14"/>
-  <Key Label="ARCLHEX" Kind="MCODE"/>
-  <Entry i="23" j="19"/>
-  <Key Label="ARCLXI" Kind="MCODE"/>
   <Entry i="23" j="30"/>
+  <Key Label="ANUMDEL" Kind="MCODE"/>
+  <Entry i="23" j="31"/>
+  <Key Label="APROMPT" Kind="MCODE"/>
+  <Entry i="23" j="16"/>
+  <Key Label="ARCLHEX" Kind="MCODE"/>
+  <Entry i="23" j="21"/>
+  <Key Label="ARCLXI" Kind="MCODE"/>
+  <Entry i="23" j="32"/>
   <Key Label="B-D" Kind="RPN"/>
   <Entry i="23" j="3"/>
   <Key Label="BEEPY" Kind="RPN"/>
-  <Entry i="23" j="12"/>
+  <Entry i="23" j="14"/>
   <Key Label="CLASPC" Kind="MCODE"/>
-  <Entry i="23" j="31"/>
+  <Entry i="23" j="33"/>
   <Key Label="COMB" Kind="RPN"/>
   <Entry i="23" j="8"/>
   <Key Label="D%" Kind="RPN"/>
@@ -35,43 +35,47 @@
   <Key Label="D-B" Kind="RPN"/>
   <Entry i="23" j="4"/>
   <Key Label="D&gt;F" Kind="MCODE"/>
-  <Entry i="23" j="33"/>
-  <Key Label="F*" Kind="MCODE"/>
-  <Entry i="23" j="37"/>
-  <Key Label="F+" Kind="MCODE"/>
   <Entry i="23" j="35"/>
+  <Key Label="F*" Kind="MCODE"/>
+  <Entry i="23" j="39"/>
+  <Key Label="F+" Kind="MCODE"/>
+  <Entry i="23" j="37"/>
   <Key Label="F-" Kind="MCODE"/>
-  <Entry i="23" j="34"/>
-  <Key Label="F/" Kind="MCODE"/>
   <Entry i="23" j="36"/>
+  <Key Label="F/" Kind="MCODE"/>
+  <Entry i="23" j="38"/>
   <Key Label="FACTOR" Kind="RPN"/>
   <Entry i="23" j="10"/>
   <Key Label="GROM" Kind="MCODE"/>
-  <Entry i="23" j="39"/>
+  <Entry i="23" j="41"/>
   <Key Label="H-D" Kind="RPN"/>
   <Entry i="23" j="5"/>
   <Key Label="HEX&gt;VSM" Kind="MCODE"/>
-  <Entry i="23" j="43"/>
+  <Entry i="23" j="45"/>
   <Key Label="HEXINPT" Kind="MCODE"/>
-  <Entry i="23" j="17"/>
+  <Entry i="23" j="19"/>
   <Key Label="HEXPRMT" Kind="MCODE"/>
-  <Entry i="23" j="16"/>
+  <Entry i="23" j="18"/>
   <Key Label="INVF" Kind="MCODE"/>
-  <Entry i="23" j="24"/>
+  <Entry i="23" j="26"/>
+  <Key Label="LUHN" Kind="RPN"/>
+  <Entry i="23" j="11"/>
   <Key Label="MENU" Kind="MCODE"/>
-  <Entry i="23" j="15"/>
+  <Entry i="23" j="17"/>
   <Key Label="PCOPY" Kind="MCODE"/>
-  <Entry i="23" j="25"/>
+  <Entry i="23" j="27"/>
   <Key Label="PERM" Kind="RPN"/>
   <Entry i="23" j="9"/>
   <Key Label="RAND" Kind="RPN"/>
-  <Entry i="23" j="11"/>
+  <Entry i="23" j="13"/>
+  <Key Label="RNR" Kind="RPN"/>
+  <Entry i="23" j="12"/>
   <Key Label="RROM" Kind="MCODE"/>
-  <Entry i="23" j="40"/>
+  <Entry i="23" j="42"/>
   <Key Label="SROM" Kind="MCODE"/>
-  <Entry i="23" j="41"/>
+  <Entry i="23" j="43"/>
   <Key Label="ST&lt;&gt;R" Kind="MCODE"/>
-  <Entry i="23" j="22"/>
+  <Entry i="23" j="24"/>
   <Key Label="T%" Kind="RPN"/>
   <Entry i="23" j="6"/>
   <Key Label="VIEWA" Kind="RPN"/>
@@ -79,16 +83,16 @@
   <Key Label="VIEWF" Kind="RPN"/>
   <Entry i="23" j="2"/>
   <Key Label="VIEWHEX" Kind="MCODE"/>
-  <Entry i="23" j="20"/>
+  <Entry i="23" j="22"/>
   <Key Label="VMANT" Kind="MCODE"/>
-  <Entry i="23" j="26"/>
+  <Entry i="23" j="28"/>
   <Key Label="VSM&gt;HEX" Kind="MCODE"/>
-  <Entry i="23" j="44"/>
+  <Entry i="23" j="46"/>
   <Key Label="WORDSZ" Kind="MCODE"/>
-  <Entry i="23" j="18"/>
+  <Entry i="23" j="20"/>
   <Key Label="WROM" Kind="MCODE"/>
-  <Entry i="23" j="42"/>
+  <Entry i="23" j="44"/>
   <Key Label="YN?" Kind="MCODE"/>
-  <Entry i="23" j="23"/>
+  <Entry i="23" j="25"/>
 </XROM>
 

@@ -1,4 +1,4 @@
-RPN_SRCS = VIEWA.rpn TPERC.rpn DPERC.rpn COMB.rpn FACTOR.rpn RAND.rpn BEEPY.rpn
+RPN_SRCS = VIEWA.rpn TPERC.rpn DPERC.rpn COMB.rpn FACTOR.rpn LUHN.rpn RNR.rpn RAND.rpn BEEPY.rpn
 RPN_RAWS =
 ASM_SRCS = header.s GEIR.s
 

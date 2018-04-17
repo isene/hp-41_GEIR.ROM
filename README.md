@@ -109,6 +109,24 @@ These programs come under the CAT 2 heading "-GEIR 1R"
 > s0(n) is the number of divisors of n. 
 > s1(n) is the sum of the divisors of n. 
 
+### "LUHN"
+	Credits: Geir Isene, Dieter
+
+**Description**: This program validates credit cards numbers, IMEI numbers, National Provider Identifier numbers in the United States, Canadian Social Insurance Numbers, Israel ID Numbers and Greek Social Security Numbers (ΑΜΚΑ). See https://en.wikipedia.org/wiki/Luhn_algorithm
+
+Enter the number to be validated into ALPHA and do XEQ "LUHN" to have "VALID" or "INVALID" displayed.
+
+Thanks to Dieter for simplifying the code.
+
+### "RNR"
+	From: https://edspi31415.blogspot.no/2018/04/hp-prime-hp-41c-ti-58c-round-to-nearest.html
+	Credits: Edward Shore, Dieter (simplified the original program)
+
+**Description**: The program rounds a number x to the nearest 1/n. For example, to round x to the nearest 10th, n = 10. To round to the nearest 16th, n = 16.
+
+Enter the number to be rounded, press ENTER and enter "n". Press XEQ "RNR" and the rounded number is returned in x.
+
+
 ### "RAND"
 	From: ICEBOX.ROM
 	Credits: Geir Isene
