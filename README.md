@@ -122,7 +122,7 @@ Thanks to Dieter for simplifying the code.
 	From: https://edspi31415.blogspot.no/2018/04/hp-prime-hp-41c-ti-58c-round-to-nearest.html
 	Credits: Edward Shore, Dieter (simplified the original program)
 
-**Description**: The program rounds a number x to the nearest 1/n. For example, to round x to the nearest 10th, n = 10. To round to the nearest 16th, n = 16.
+**Description**: The program rounds a number x to the nearest 1/n (RNR = "Round to NeaRest). For example, to round x to the nearest 10th, n = 10. To round to the nearest 16th, n = 16.
 
 Enter the number to be rounded, press ENTER and enter "n". Press XEQ "RNR" and the rounded number is returned in x.
 
