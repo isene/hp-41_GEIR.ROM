@@ -1,11 +1,11 @@
-<img src="img/geir_rom_logo.svg" align="left" width="150" height="150" alt="GEIR ROM Logo">
-
 # hp-41_GEIR.ROM
 
 [![HP-41](https://img.shields.io/badge/HP--41-Calculator-orange)](https://en.wikipedia.org/wiki/HP-41C)
 [![License](https://img.shields.io/badge/License-Public%20Domain-brightgreen.svg)](https://unlicense.org/)
 [![GitHub stars](https://img.shields.io/github/stars/isene/hp-41_GEIR.ROM.svg)](https://github.com/isene/hp-41_GEIR.ROM/stargazers)
 [![Stay Amazing](https://img.shields.io/badge/Stay-Amazing-blue.svg)](https://isene.org)
+
+<img src="img/geir_rom_logo.svg" align="left" width="150" height="150" alt="GEIR ROM Logo">
 
 This ROM (module) for the HP-41 calculator is a collection of the most essential programs, utilities and tools. It is what I need, and as my needs change, so will the content of this ROM. Some programs are FOCAL, others are MCODE. Some written by me and many copied from brilliant programmers since the inception of the HP-41 some 40 years ago.
 
