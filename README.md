@@ -6,6 +6,7 @@
 [![Stay Amazing](https://img.shields.io/badge/Stay-Amazing-blue.svg)](https://isene.org)
 
 <img src="img/geir_rom_logo.svg" align="left" width="150" height="150" alt="GEIR ROM Logo">
+<br clear="left"/>
 
 This ROM (module) for the HP-41 calculator is a collection of the most essential programs, utilities and tools. It is what I need, and as my needs change, so will the content of this ROM. Some programs are FOCAL, others are MCODE. Some written by me and many copied from brilliant programmers since the inception of the HP-41 some 40 years ago.
 
