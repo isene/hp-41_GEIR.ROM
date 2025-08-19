@@ -1,0 +1,6 @@
+*.swp
+*.o
+*.lst
+src/GEIR.mod
+src/GEIR.rom
+src/GEIR
